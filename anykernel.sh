@@ -2,45 +2,24 @@
 ## osm0sis @ xda-developers
 
 ### AnyKernel setup
-# begin properties
+# global properties
 properties() { '
-kernel.string=Kernel by Akitlove
+kernel.string=Psionic Revived By ELOHIM
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=RMX2151
-device.name2=rmx2151
-device.name3=rmx2161
-device.name4=RMX2161
-device.name5=RMX2001
-device.name6=RM6785
-device.name7=rm6785
-device.name8=wasabi 
-device.name9=RMX2002
-device.name10=rmx2001
-device.name11=rmx2001L1
-device.name12=RMX2001L1
-device.name13=rmx2002
-device.name14=rmx2002L1
-device.name15=RMX2002L1
-device.name16=RMX2003
-device.name17=IN2023
-device.name18=RMX3031
-device.name19=GM1917
-device.name20=RM6785
-device.name21=rm6785
-device.name22=RMX2156
-device.name23=RMX2161
-device.name24=RMX2163
-device.name25=RMX2153
-device.name26=RMX2153L1
-device.name27=RMX2161L1
-device.name28=RMX2163L1
+device.name1=RMX2001
+device.name2=RMX2001L1
+device.name3=RM6785
+device.name4=RMX2151
+device.name5=RMX2151L1
 supported.versions=
 supported.patchlevels=
+supported.vendorpatchlevels=
 '; } # end properties
+
 
 ### AnyKernel install
 ## boot files attributes

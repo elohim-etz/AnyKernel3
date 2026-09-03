@@ -4,22 +4,36 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string= Kernel By Elohim
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
-device.name5=
+device.name1=RM6785
+device.name2=RMX2001
+device.name3=RMX2001L1
+device.name4=RMX2002
+device.name5=RMX2002L1
+device.name6=RMX2003
+device.name7=RMX2003L1
+device.name8=RMX2005L1
+device.name9=RMX2151
+device.name10=RMX2151L1
+device.name11=RMX2153
+device.name12=RMX2153L1
+device.name13=RMX2155
+device.name14=RMX2155L1
+device.name15=RMX2156
+device.name16=RMX2156L1
+device.name17=RMX2161
+device.name18=RMX2161L1
+device.name19=RMX2163
+device.name20=RMX2163L1
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
-
 
 ### AnyKernel install
 ## boot files attributes
@@ -29,7 +43,7 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # boot shell variables
-BLOCK=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
+BLOCK=/dev/block/by-name/boot;
 IS_SLOT_DEVICE=0;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
@@ -118,4 +132,3 @@ write_boot; # use flash_boot to skip ramdisk repack, e.g. for devices with init_
 
 #write_boot; # use flash_boot to skip ramdisk repack, e.g. for dtb on devices with hdr v4 but no vendor_kernel_boot
 ## end vendor_boot install
-
